@@ -1,0 +1,27 @@
+\section{Appendices}
+
+\begin{table}
+  \centering
+  \caption{Title of the table}
+	\setlength\tabcolsep{2pt}
+	\renewcommand{\arraystretch}{.7}
+	\resizebox{\textwidth}{!}{
+    \begin{threeparttable}
+			\begin{tabular}{ccc}
+				\toprule[2pt]
+					1 & 2 & 3 \\
+					\cmidrule{1-3}
+					1 & 2 & 3 \\
+					\cmidrule(lr){1-3}
+					1 & 2 & 3 \\
+					\cmidrule(lr){1-1} \cmidrule(lr){2-2} \cmidrule(lr){3-3}
+					a & b & c \\
+				\bottomrule[2pt]
+			\end{tabular}
+			\begin{tablenotes}
+				\item [a] note of the table
+			\end{tablenotes}
+    \end{threeparttable}
+	}
+	\label{tab:label of the table}
+\end{table}

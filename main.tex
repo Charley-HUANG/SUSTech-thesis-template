@@ -1,0 +1,38 @@
+% Template of my thesis for the degree of bachelor of statistics.
+% Version 1.0
+% Author: Qiuyi HUANG
+% Last modified: 2022年4月26日16:54:30
+
+
+\documentclass[a4paper, 12pt, oneside]{article}
+
+\input{auxiliary/preamble.tex}
+
+\begin{document}
+
+\include{auxiliary/cover_e}
+\include{auxiliary/cover_c}
+% \include{auxiliary/title}
+% \include{auxiliary/certificate}
+\pagenumbering{roman}
+% \include{auxiliary/dedication}
+\include{sections/abstract}
+% \include{auxiliary/publications}
+% \include{auxiliary/acknowledgements}
+
+% 标题首字母大写，除非缩写，不然不大写。
+\tableofcontents
+\newpage
+\listoffigures
+\newpage
+\listoftables
+
+\newpage
+\pagenumbering{arabic}
+\include{sections/introduction}
+\include{sections/prerequsite_knowledge}
+\include{sections/empirical_study}
+\include{sections/discussion_conclusion}
+\include{sections/references}
+\include{sections/appendices}
+\end{document}

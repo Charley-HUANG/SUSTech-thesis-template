@@ -1,0 +1,21 @@
+\babel@toc {english}{}
+\contentsline {section}{\numberline {1}Introduction}{1}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Research background and literature review}{1}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Research objective and framework}{1}{subsection.1.2}%
+\contentsline {section}{\numberline {2}Prerequsite knowledge}{2}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Mathematical formulars}{2}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}数学字符}{2}{subsubsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.2}数学公式}{2}{subsubsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.2}Itemize}{3}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Graphs}{3}{subsection.2.3}%
+\contentsline {section}{\numberline {3}Empirical study}{5}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Data acquisition and processing}{5}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Basic statistics and tests}{5}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Summary of datasets}{5}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}Test of normality}{5}{subsubsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.3}Test of unit root}{5}{subsubsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.3}Residuals analysis}{5}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Prediction}{5}{subsection.3.4}%
+\contentsline {section}{\numberline {4}Discussion and conclusion}{6}{section.4}%
+\contentsline {section}{References}{7}{section*.6}%
+\contentsline {section}{Appendices}{8}{section*.7}%

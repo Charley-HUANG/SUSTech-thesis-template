@@ -1,0 +1,85 @@
+\section{Prerequsite knowledge}
+	\subsection{Mathematical formulars}
+		\subsubsection{数学字符}
+			\begin{enumerate}
+				\setlength{\itemsep}{0pt}
+				\setlength{\parsep}{0pt}
+				\setlength{\parskip}{0pt}
+		
+				\item 行内公式用$\{a_{t}\}$。
+				\item 单行公式用
+					\begin{displaymath}
+							a_{t}=\sigma_{t | t-1} \varepsilon_{t}
+					\end{displaymath}
+			\end{enumerate}
+
+		\subsubsection{数学公式}
+			\begin{enumerate}
+				\setlength{\itemsep}{0pt}
+				\setlength{\parsep}{0pt}
+				\setlength{\parskip}{0pt}
+
+				\item 数学公式
+					\item 行内公式用$\{y_{t}\}$。
+					\item 单行公式用
+						\begin{equation*}
+							f(z)=\frac{\kappa e^{-0.5|z|^{\kappa}}}{2^{1+\kappa^{-1}} \beta \Gamma\left(\kappa^{-1}\right)}
+						\end{equation*}
+						*表示不标号
+
+						equation环境的好处是上下伸缩性更好。
+					\item 多行公式用
+					\subitem 按等号对齐
+						\begin{align*}
+							P_{t}     &=  2-1\\
+												&=  1
+						\end{align*}
+					\subitem 各行居中
+						\begin{displaymath}
+							\begin{array}{c}
+								a_{t}=\sigma_{t | t-1} \varepsilon_{t}, \\
+								\sigma_{t | t-1}^{2}=\omega+\alpha_{1} a_{t-1}^{2}+\cdots+\alpha_{q} a_{t-q}^{2},
+							\end{array}
+						\end{displaymath}
+					\subitem 分段函数
+						\begin{displaymath}
+							\begin{array}{c}
+								a_{t}=\sigma_{t | t-1} \varepsilon_{t}, \\
+								\sigma_{t | t-1}^{2}=\alpha_{0}+\sum_{i=1}^{q}\left(\alpha_{i}+\gamma_{i} I_{t-i}\right) a_{t-i}^{2}+\sum_{j=1}^{p} \beta_{j} \sigma_{t-j | t-j-1}^{2},\\
+								I_{t-i}=\left\{\begin{array}{ll}
+								1 & \text { if } a_{t-i}<0 \\
+								0 & \text { if } a_{t-i} \geq 0
+								\end{array}\right.
+							\end{array}
+						\end{displaymath}
+			\end{enumerate}
+
+	\subsection{Itemize}
+		\begin{enumerate}
+			% 列表宽度修改
+			\setlength{\itemsep}{0pt}
+			\setlength{\parsep}{0pt}
+			\setlength{\parskip}{0pt}
+
+			\item ...
+		\end{enumerate}
+
+	\subsection{Graphs}
+		\begin{figure}[htbp]
+			\centering
+			\caption{Nanami}
+			\includegraphics[width = \columnwidth]{Nanami.JPG}
+			\label{fig: nanami}
+		\end{figure}
+		
+
+
+
+
+
+
+
+
+
+
+
